@@ -1,0 +1,282 @@
+===== Parallelism: off =====
+===== Threads: 1 =====
+Run 1
+vector-global-order:
+Time: 0.01 seconds
+Exit code: 0
+vector-try-wait:
+Retries: 0
+Time: 0.01 seconds
+Exit code: 0
+vector-avoid-hold-and-wait:
+Time: 0.01 seconds
+Exit code: 0
+Run 2
+vector-global-order:
+Time: 0.01 seconds
+Exit code: 0
+vector-try-wait:
+Retries: 0
+Time: 0.01 seconds
+Exit code: 0
+vector-avoid-hold-and-wait:
+Time: 0.01 seconds
+Exit code: 0
+Run 3
+vector-global-order:
+Time: 0.01 seconds
+Exit code: 0
+vector-try-wait:
+Retries: 0
+Time: 0.01 seconds
+Exit code: 0
+vector-avoid-hold-and-wait:
+Time: 0.01 seconds
+Exit code: 0
+
+===== Threads: 2 =====
+Run 1
+vector-global-order:
+Time: 0.02 seconds
+Exit code: 0
+vector-try-wait:
+Retries: 4454
+Time: 0.02 seconds
+Exit code: 0
+vector-avoid-hold-and-wait:
+Time: 0.04 seconds
+Exit code: 0
+Run 2
+vector-global-order:
+Time: 0.02 seconds
+Exit code: 0
+vector-try-wait:
+Retries: 6591
+Time: 0.02 seconds
+Exit code: 0
+vector-avoid-hold-and-wait:
+Time: 0.05 seconds
+Exit code: 0
+Run 3
+vector-global-order:
+Time: 0.02 seconds
+Exit code: 0
+vector-try-wait:
+Retries: 3949
+Time: 0.02 seconds
+Exit code: 0
+vector-avoid-hold-and-wait:
+Time: 0.04 seconds
+Exit code: 0
+
+===== Threads: 4 =====
+Run 1
+vector-global-order:
+Time: 0.10 seconds
+Exit code: 0
+vector-try-wait:
+Retries: 1454697
+Time: 0.34 seconds
+Exit code: 0
+vector-avoid-hold-and-wait:
+Time: 0.17 seconds
+Exit code: 0
+Run 2
+vector-global-order:
+Time: 0.08 seconds
+Exit code: 0
+vector-try-wait:
+Retries: 1656625
+Time: 0.41 seconds
+Exit code: 0
+vector-avoid-hold-and-wait:
+Time: 0.15 seconds
+Exit code: 0
+Run 3
+vector-global-order:
+Time: 0.09 seconds
+Exit code: 0
+vector-try-wait:
+Retries: 1142915
+Time: 0.29 seconds
+Exit code: 0
+vector-avoid-hold-and-wait:
+Time: 0.15 seconds
+Exit code: 0
+
+===== Threads: 8 =====
+Run 1
+vector-global-order:
+Time: 0.26 seconds
+Exit code: 0
+vector-try-wait:
+Retries: 1370148
+Time: 0.28 seconds
+Exit code: 0
+vector-avoid-hold-and-wait:
+Time: 0.30 seconds
+Exit code: 0
+Run 2
+vector-global-order:
+Time: 0.30 seconds
+Exit code: 0
+vector-try-wait:
+Retries: 6246667
+Time: 0.74 seconds
+Exit code: 0
+vector-avoid-hold-and-wait:
+Time: 0.29 seconds
+Exit code: 0
+Run 3
+vector-global-order:
+Time: 0.27 seconds
+Exit code: 0
+vector-try-wait:
+Retries: 3539067
+Time: 0.52 seconds
+Exit code: 0
+vector-avoid-hold-and-wait:
+Time: 0.31 seconds
+Exit code: 0
+
+===== Parallelism: on =====
+===== Threads: 1 =====
+Run 1
+vector-global-order:
+Time: 0.01 seconds
+Exit code: 0
+vector-try-wait:
+Retries: 0
+Time: 0.01 seconds
+Exit code: 0
+vector-avoid-hold-and-wait:
+Time: 0.01 seconds
+Exit code: 0
+Run 2
+vector-global-order:
+Time: 0.01 seconds
+Exit code: 0
+vector-try-wait:
+Retries: 0
+Time: 0.01 seconds
+Exit code: 0
+vector-avoid-hold-and-wait:
+Time: 0.01 seconds
+Exit code: 0
+Run 3
+vector-global-order:
+Time: 0.01 seconds
+Exit code: 0
+vector-try-wait:
+Retries: 0
+Time: 0.01 seconds
+Exit code: 0
+vector-avoid-hold-and-wait:
+Time: 0.01 seconds
+Exit code: 0
+
+===== Threads: 2 =====
+Run 1
+vector-global-order:
+Time: 0.01 seconds
+Exit code: 0
+vector-try-wait:
+Retries: 0
+Time: 0.01 seconds
+Exit code: 0
+vector-avoid-hold-and-wait:
+Time: 0.02 seconds
+Exit code: 0
+Run 2
+vector-global-order:
+Time: 0.01 seconds
+Exit code: 0
+vector-try-wait:
+Retries: 0
+Time: 0.01 seconds
+Exit code: 0
+vector-avoid-hold-and-wait:
+Time: 0.02 seconds
+Exit code: 0
+Run 3
+vector-global-order:
+Time: 0.01 seconds
+Exit code: 0
+vector-try-wait:
+Retries: 0
+Time: 0.01 seconds
+Exit code: 0
+vector-avoid-hold-and-wait:
+Time: 0.02 seconds
+Exit code: 0
+
+===== Threads: 4 =====
+Run 1
+vector-global-order:
+Time: 0.02 seconds
+Exit code: 0
+vector-try-wait:
+Retries: 0
+Time: 0.02 seconds
+Exit code: 0
+vector-avoid-hold-and-wait:
+Time: 0.05 seconds
+Exit code: 0
+Run 2
+vector-global-order:
+Time: 0.02 seconds
+Exit code: 0
+vector-try-wait:
+Retries: 0
+Time: 0.02 seconds
+Exit code: 0
+vector-avoid-hold-and-wait:
+Time: 0.05 seconds
+Exit code: 0
+Run 3
+vector-global-order:
+Time: 0.02 seconds
+Exit code: 0
+vector-try-wait:
+Retries: 0
+Time: 0.02 seconds
+Exit code: 0
+vector-avoid-hold-and-wait:
+Time: 0.05 seconds
+Exit code: 0
+
+===== Threads: 8 =====
+Run 1
+vector-global-order:
+Time: 0.02 seconds
+Exit code: 0
+vector-try-wait:
+Retries: 0
+Time: 0.02 seconds
+Exit code: 0
+vector-avoid-hold-and-wait:
+Time: 0.11 seconds
+Exit code: 0
+Run 2
+vector-global-order:
+Time: 0.03 seconds
+Exit code: 0
+vector-try-wait:
+Retries: 0
+Time: 0.03 seconds
+Exit code: 0
+vector-avoid-hold-and-wait:
+Time: 0.11 seconds
+Exit code: 0
+Run 3
+vector-global-order:
+Time: 0.03 seconds
+Exit code: 0
+vector-try-wait:
+Retries: 0
+Time: 0.03 seconds
+Exit code: 0
+vector-avoid-hold-and-wait:
+Time: 0.11 seconds
+Exit code: 0
+
